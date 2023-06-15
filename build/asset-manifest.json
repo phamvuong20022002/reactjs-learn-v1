@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactjs-learn-v1/static/css/main.6aeee3e2.css",
+    "main.js": "/reactjs-learn-v1/static/js/main.7c3f3027.js",
+    "static/js/787.f480428d.chunk.js": "/reactjs-learn-v1/static/js/787.f480428d.chunk.js",
+    "static/media/homepage.jpg": "/reactjs-learn-v1/static/media/homepage.07fdf0f4c26da3de393e.jpg",
+    "static/media/aboutpage.jpg": "/reactjs-learn-v1/static/media/aboutpage.37380a66d1f710c89a90.jpg",
+    "static/media/vans6.png": "/reactjs-learn-v1/static/media/vans6.eec6dc8ef6b63833de6d.png",
+    "static/media/vans3.png": "/reactjs-learn-v1/static/media/vans3.937147e9800288655c69.png",
+    "static/media/vans2.png": "/reactjs-learn-v1/static/media/vans2.d8f99c06565784662f35.png",
+    "static/media/vans1.png": "/reactjs-learn-v1/static/media/vans1.252583002a187461257e.png",
+    "static/media/vans5.png": "/reactjs-learn-v1/static/media/vans5.0225d8c2df6bac260586.png",
+    "static/media/image_homePage.png": "/reactjs-learn-v1/static/media/image_homePage.a718276e09b6f558d9c7.png",
+    "static/media/vans4.png": "/reactjs-learn-v1/static/media/vans4.98d03b8730b2d9f147ee.png",
+    "static/media/image_aboutPage.png": "/reactjs-learn-v1/static/media/image_aboutPage.96c7e3cecfe863da8eeb.png",
+    "index.html": "/reactjs-learn-v1/index.html",
+    "main.6aeee3e2.css.map": "/reactjs-learn-v1/static/css/main.6aeee3e2.css.map",
+    "main.7c3f3027.js.map": "/reactjs-learn-v1/static/js/main.7c3f3027.js.map",
+    "787.f480428d.chunk.js.map": "/reactjs-learn-v1/static/js/787.f480428d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aeee3e2.css",
+    "static/js/main.7c3f3027.js"
+  ]
+}
