@@ -1,0 +1,339 @@
+body {
+    background-color: #FFF7ED ;
+}
+
+.container {
+    position: relative;
+    height: 800px;
+    top: 9px;
+    opacity: 0;
+	animation: fadeIn 0.3s ease-in both;
+}
+
+.container img {
+    position: relative ;
+    width: 100%;
+    height: 100%;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.container .filter {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.46);
+    width: 100%;
+    height: 100%;
+}
+
+.container .content {
+    position: absolute;
+    top: 0px;
+    color: white;
+    margin-left: 80px;
+    margin-top: 10%;
+}
+
+.container .content h1 {
+    font-size: 60px;
+}
+
+.container .content p {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.container .content button {
+    width: 80%;
+    height: 80px;
+    background-color: #FF8C38;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.container .content button:hover {
+    background: #ff6e06;
+    box-shadow:  gray;
+    border: 2px white solid;
+}
+
+.ab-container{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+	animation: fadeIn 0.3s ease-in both;
+}
+
+.ab-container .ab-image img{
+    width: 100%;
+    height: 600px;
+}
+
+.ab-container .ab-content{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.ab-container .ab-content h1{
+    font-size: 60px;
+    margin-top: 10%;
+}
+
+.ab-container .ab-content p{
+    font-size: 40px;
+}
+
+.ab-box {
+    background-color: #FFCC8D;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.ab-box .ab-box-content {
+    padding: 1px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.ab-box .ab-box-content button {
+    width: 25%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #161616;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.ab-box .ab-box-content button:hover{
+    box-shadow:  gray;
+    border: 2px white solid;
+}
+
+.van-container{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.van-container h1{
+    font-size: 40px;
+}
+.van-container .tag-items{
+    display: flex;
+    justify-content: space-between;
+}
+.van-container .tag-items .tag-box{
+    background-color: #FFEAD0;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 120px 20px 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.van-container .tag-items .tag-box:hover{
+    border:1px solid #161616;
+}
+
+.van-container .tag-items .tag-button{
+    text-decoration: underline;
+    background: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 80px 20px 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.van-container .tag-items .tag-button:hover{
+    background: #ff6e06;
+    font-size: 28px;
+    border: 1px solid black;
+}
+
+.van-container .grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 480px 480px 480px;
+}
+
+.van-container .grid .card{
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.van-container .grid .card .card-image img{
+    transition: 0.3s;
+}
+.van-container .grid .card .card-image img:hover{
+    border-radius: 5px; 
+    width: 450px;
+}
+
+.van-container .grid .card .card-image{
+    width: 100%;
+    max-height: 480px;
+    border-radius: 5px;
+}
+
+.van-container .grid .card .card-image img{
+    width: 350px;
+    max-height: 480px;
+    border-radius: 5px;
+}
+
+.van-container .grid .card .card-content{   
+    margin-top: 30px;
+    max-width: 100%;
+    display: block ;
+}
+
+.van-container .grid .card .card-content h2{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+
+.card-content .price{
+    position: relative;
+    left: 70%;
+    bottom: 75px;
+    font-size: 40px;
+}
+.card-content .unit{
+    position: relative;
+    left: 75%;
+    bottom: 85px;
+    font-size: 20px;
+}
+
+.van-container .grid .card .card-content button{   
+    width: 150px;
+    height: 50px;
+    position: relative;
+    float: left;
+    bottom: 90px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFEAD0;
+    border: none;
+    border-radius: 5px;
+}
+
+.van-container .grid .card .card-content .Simple {
+    background-color: #E17654;
+}
+
+.van-container .grid .card .card-content .Luxury {
+    background-color: #161616;
+}
+
+.van-container .grid .card .card-content .Rugged {
+    background-color: #115E59;
+}
+
+.detail-container .card-back{
+    margin-left: 80px;
+}
+
+.detail-container .card-back {
+    margin-bottom: 80px;
+    font-size: 22px;
+}
+
+.detail-container .card-back i{
+    color: #858585;
+}
+
+.detail-container .card-back a{
+    color: #201F1D;
+}
+
+.detail-container .card-detail{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.detail-container .card-detail .card-image{
+    max-height: 100%;
+    margin-bottom: 60px;
+}
+.detail-container .card-detail .card-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.detail-container .card-detail .card-content .style button{ 
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFEAD0;
+    border: none;
+    border-radius: 5px; 
+
+}
+
+.detail-container .card-detail .card-content .style .Simple {
+    background-color: #E17654;
+}
+
+.detail-container .card-detail .card-content .style .Luxury {
+    background-color: #161616;
+}
+
+.detail-container .card-detail .card-content .style .Rugged {
+    background-color: #115E59;
+}
+
+.detail-container .card-detail .card-content .title{
+    font-size: 60px;
+}
+
+.detail-container .card-detail .card-content .price-unit{
+    font-size: 30px;
+}
+.detail-container .card-detail .card-content .price-unit .price-detail{
+    font-size: 50px;
+}
+.detail-container .card-detail .card-content .decription{
+    font-size: 30px;
+}
+.detail-container .card-detail .card-content .bnt-rent{
+    background-color: #FF8C38;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 120px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.detail-container .card-detail .card-content .bnt-rent:hover{
+    background-color: #f76904;
+    font-size: 35px;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
